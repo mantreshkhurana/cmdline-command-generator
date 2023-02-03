@@ -4,12 +4,12 @@ Install many tools for development using this script easily, with just one comma
 
 | OS | Arch | Support |
 | :---: | :---: | :---: |
-| Linux | x86_64 | [x] |
-| Linux | arm64 | [x] |
-| Windows | x86_64 | [x] |
-| Windows | arm64 | [x] |
-| MacOS | x86_64 | [x] |
-| MacOS | arm64 | [x] |
+| Linux | x86_64 | ✅ |
+| Linux | arm64 | ✅ |
+| Windows | x86_64 | ✅ |
+| Windows | arm64 | ✅ |
+| MacOS | x86_64 | ✅ |
+| MacOS | arm64 | ✅ |
 
 ## Usage
 
