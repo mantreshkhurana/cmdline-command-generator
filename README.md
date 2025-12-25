@@ -26,7 +26,7 @@ Generate command line commands for any operating system without any knowledge of
 
 ## Live Demo
 
-Visit the live website: [https://mantreshkhurana.github.io/cmdline-command-generator/](https://mantreshkhurana.github.io/cmdline-command-generator/)
+Visit the live website: [Deployed Site](https://mantreshkhurana.github.io/cmdline-command-generator/)
 
 ## Local Development
 
@@ -90,8 +90,8 @@ Contributions are welcome! You can contribute to this project by forking it and 
 After forking:
 
 ```bash
-git clone https://github.com/<your-username>/x-toxicity-detection-flask.git
-cd x-toxicity-detection-flask
+git clone https://github.com/<your-username>/cmdline-command-generator.git
+cd cmdline-command-generator
 git checkout -b <your-branch-name>
 # after adding your changes
 git add .
