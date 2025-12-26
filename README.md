@@ -39,7 +39,7 @@ Visit the live website: [Deployed Site](https://mantreshkhurana.github.io/cmdlin
 2. Open the website:
 
    ```bash
-   cd cmdline-command-generator/website
+   cd cmdline-command-generator
    open index.html  # macOS
    # or
    xdg-open index.html  # Linux
@@ -63,24 +63,20 @@ This project is configured to automatically deploy to GitHub Pages when you push
 
 ```text
 cmdline-command-generator/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml      # GitHub Pages deployment workflow
-├── website/
-│   ├── index.html          # Main HTML file
-│   ├── styles/
-│   │   └── style.css       # Styling with CSS variables
-│   ├── scripts/
-│   │   ├── commands.js     # Command database
-│   │   └── app.js          # Application logic
-│   └── assets/
-│       ├── macos.png       # macOS icon
-│       ├── linux.png       # Linux icon
-│       ├── windows.png     # Windows icon
-│       └── bg.jpeg         # Background image
-├── README.md
+├── assets/
+│   ├── bg.jpeg             # Background image
+│   ├── linux.png           # Linux icon
+│   ├── macos.png           # macOS icon
+│   └── windows.png         # Windows icon
+├── scripts/
+│   ├── app.js              # Application logic
+│   └── commands.js         # Command database
+├── styles/
+│   └── style.css           # Styling with CSS variables
+├── index.html              # Main HTML file
 ├── CHANGELOG.md
-└── LICENSE
+├── LICENSE
+└── README.md
 ```
 
 ## Contributing
